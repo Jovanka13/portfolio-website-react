@@ -48,7 +48,7 @@ const Home = () => {
           <div className='w-[300px] h-[290px] md:w-[400px] md:h-[400px] 2xl:w-[500px] 2xl:h-[500px] border rounded-full border-gray-600 relative md:mt-20 lg:mt-0 flex items-center justify-center'>
             <img
               src={profilePicture}
-              className='w-auto h-full absolute -top-5 md:-top-10'
+              className='w-auto h-full absolute -top-5 md:-top-10' alt=''
 
             />
             <div
@@ -56,19 +56,19 @@ const Home = () => {
             >
               <img
                 src={html}
-                className='absolute top-7 md:top-20 left-3 md:-left-3 2xl:left-2 w-12 h-12 md:w-16 md:h-16'
+                className='absolute top-7 md:top-20 left-3 md:-left-3 2xl:left-2 w-12 h-12 md:w-16 md:h-16' alt=''
               />
               <img
                 src={css}
-                className='absolute bottom-7 left-3 md:bottom-10 2xl:left-12 w-12 h-12 md:w-16 md:h-16'
+                className='absolute bottom-7 left-3 md:bottom-10 2xl:left-12 w-12 h-12 md:w-16 md:h-16' alt=''
               />
               <img
                 src={javaScript}
-                className='absolute top-5 md:top-16 right-3 md:-right-3 2xl:right-2 w-12 h-12 md:w-16 md:h-16'
+                className='absolute top-5 md:top-16 right-3 md:-right-3 2xl:right-2 w-12 h-12 md:w-16 md:h-16' alt=''
               />
               <img
                 src={bootstrap}
-                className='absolute bottom-7 right-3 md:bottom-10 2xl:right-12 w-12 h-12 md:w-16 md:h-16'
+                className='absolute bottom-7 right-3 md:bottom-10 2xl:right-12 w-12 h-12 md:w-16 md:h-16' alt=''
               />
             </div>
           </div>
