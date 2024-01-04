@@ -49,49 +49,49 @@ const Certificates = () => {
           className="mySwiper"
         >
           <SwiperSlide>
-            <img src={slide_image_1} alt="slide_image" />
+            <img src={slide_image_1} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={slide_image_2} alt="slide_image" />
+            <img src={slide_image_2} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={slide_image_3} alt="slide_image" />
+            <img src={slide_image_3} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={slide_image_4} alt="slide_image" />
+            <img src={slide_image_4} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={slide_image_5} alt="slide_image" />
+            <img src={slide_image_5} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={slide_image_6} alt="slide_image" />
+            <img src={slide_image_6} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={slide_image_7} alt="slide_image" />
+            <img src={slide_image_7} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={slide_image_8} alt="slide_image" />
+            <img src={slide_image_8} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={slide_image_9} alt="slide_image" />
+            <img src={slide_image_9} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={slide_image_10} alt="slide_image" />
+            <img src={slide_image_10} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={slide_image_11} alt="slide_image" />
+            <img src={slide_image_11} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={slide_image_12} alt="slide_image" />
+            <img src={slide_image_12} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={slide_image_13} alt="slide_image" />
+            <img src={slide_image_13} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={slide_image_14} alt="slide_image" />
+            <img src={slide_image_14} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={slide_image_15} alt="slide_image" />
+            <img src={slide_image_15} alt="" />
           </SwiperSlide>
         </Swiper>
       </div>
