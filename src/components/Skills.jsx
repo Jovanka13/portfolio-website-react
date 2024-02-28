@@ -15,67 +15,74 @@ const Skills = () => {
           Technical Skills
         </h4>
         <div className='flex items-center justify-center mt-12 gap-10 flex-wrap'>
-          <div className='border-2 group border-cyan-600 relative min-w-[10rem] max-w-[16rem] bg-gray-900 p-10 rounded-xl'>
-            <div style={{ background: `conic-gradient(rgb(8, 145, 170) 100%, rgb(221, 221, 221) 100%)` }} className='w-32 h-32 flex items-center justify-center rounded-full'>
-              <div className='text-6xl w-28 h-28 bg-gray-900 rounded-full flex items-center justify-center text-white group-hover:text-cyan-600'>
+
+          <div className='border-2 group shadow-md shadow-[#4d6078] hover:shadow-xl duration-500 relative min-w-[10rem] max-w-[16rem] bg-indigo-300 p-10 rounded-xl'>
+            <div className='w-32 h-32 flex items-center justify-center rounded-full'>
+              <div className='text-6xl w-28 h-28 bg-gray-900 rounded-full flex items-center justify-center text-white group-hover:text-indigo-300'>
                 <FaHtml5 />
               </div>
             </div>
-            <p className='text-center text-xl mt-3 text-white'>HTML</p>
+            <p className='text-center text-xl mt-3 text-indigo-900'>HTML</p>
           </div>
-          <div className='border-2 group border-cyan-600 relative min-w-[10rem] max-w-[16rem] bg-gray-900 p-10 rounded-xl'>
-            <div style={{ background: `conic-gradient(rgb(8, 145, 170) 100%, rgb(221, 221, 221) 100%)` }} className='w-32 h-32 flex items-center justify-center rounded-full'>
-              <div className='text-6xl w-28 h-28 bg-gray-900 rounded-full flex items-center justify-center text-white group-hover:text-cyan-600'>
+
+          <div className='border-2 group shadow-md shadow-[#4d6078] hover:shadow-xl duration-500 relative min-w-[10rem] max-w-[16rem] bg-indigo-300 p-10 rounded-xl'>
+            <div className='w-32 h-32 flex items-center justify-center rounded-full'>
+              <div className='text-6xl w-28 h-28 bg-gray-900 rounded-full flex items-center justify-center text-white group-hover:text-indigo-300'>
                 <FaCss3Alt />
               </div>
             </div>
-            <p className='text-center text-xl mt-3 text-white'>CSS</p>
+            <p className='text-center text-xl mt-3 text-indigo-900'>CSS</p>
           </div>
-          <div className='border-2 group border-cyan-600 relative min-w-[10rem] max-w-[16rem] bg-gray-900 p-10 rounded-xl'>
-            <div style={{ background: `conic-gradient(rgb(8, 145, 170) 100%, rgb(221, 221, 221) 100%)` }} className='w-32 h-32 flex items-center justify-center rounded-full'>
-              <div className='text-6xl w-28 h-28 bg-gray-900 rounded-full flex items-center justify-center text-white group-hover:text-cyan-600'>
-                <FaBootstrap />
-              </div>
-            </div>
-            <p className='text-center text-xl mt-3 text-white'>Bootstrap</p>
-          </div>
-          <div className='border-2 group border-cyan-600 relative min-w-[10rem] max-w-[16rem] bg-gray-900 p-10 rounded-xl'>
-            <div style={{ background: `conic-gradient(rgb(8, 145, 170) 100%, rgb(221, 221, 221) 100%)` }} className='w-32 h-32 flex items-center justify-center rounded-full'>
-              <div className='text-6xl w-28 h-28 bg-gray-900 rounded-full flex items-center justify-center text-white group-hover:text-cyan-600'>
-                <SiTailwindcss />
-              </div>
-            </div>
-            <p className='text-center text-xl mt-3 text-white'>Tailwind</p>
-          </div>
-          <div className='border-2 group border-cyan-600 relative min-w-[10rem] max-w-[16rem] bg-gray-900 p-10 rounded-xl'>
-            <div style={{ background: `conic-gradient(rgb(8, 145, 170) 100%, rgb(221, 221, 221) 100%)` }} className='w-32 h-32 flex items-center justify-center rounded-full'>
-              <div className='text-6xl w-28 h-28 bg-gray-900 rounded-full flex items-center justify-center text-white group-hover:text-cyan-600'>
+
+          <div className='border-2 group shadow-md shadow-[#4d6078] hover:shadow-xl duration-500 relative min-w-[10rem] max-w-[16rem] bg-indigo-300 p-10 rounded-xl'>
+            <div className='w-32 h-32 flex items-center justify-center rounded-full'>
+              <div className='text-6xl w-28 h-28 bg-gray-900 rounded-full flex items-center justify-center text-white group-hover:text-indigo-300'>
                 <IoLogoJavascript />
               </div>
             </div>
-            <p className='text-center text-xl mt-3 text-white'>Javascript</p>
+            <p className='text-center text-xl mt-3 text-indigo-900'>JavaScript</p>
           </div>
-          <div className='border-2 group border-cyan-600 relative min-w-[10rem] max-w-[16rem] bg-gray-900 p-10 rounded-xl'>
-            <div style={{ background: `conic-gradient(rgb(8, 145, 170) 100%, rgb(221, 221, 221) 100%)` }} className='w-32 h-32 flex items-center justify-center rounded-full'>
-              <div className='text-6xl w-28 h-28 bg-gray-900 rounded-full flex items-center justify-center text-white group-hover:text-cyan-600'>
+
+          <div className='border-2 group shadow-md shadow-[#4d6078] hover:shadow-xl duration-500 relative min-w-[10rem] max-w-[16rem] bg-indigo-300 p-10 rounded-xl'>
+            <div className='w-32 h-32 flex items-center justify-center rounded-full'>
+              <div className='text-6xl w-28 h-28 bg-gray-900 rounded-full flex items-center justify-center text-white group-hover:text-indigo-300'>
+                <FaBootstrap />
+              </div>
+            </div>
+            <p className='text-center text-xl mt-3 text-indigo-900'>Bootstrap</p>
+          </div>
+
+          <div className='border-2 group shadow-md shadow-[#4d6078] hover:shadow-xl duration-500 relative min-w-[10rem] max-w-[16rem] bg-indigo-300 p-10 rounded-xl'>
+            <div className='w-32 h-32 flex items-center justify-center rounded-full'>
+              <div className='text-6xl w-28 h-28 bg-gray-900 rounded-full flex items-center justify-center text-white group-hover:text-indigo-300'>
+                <SiTailwindcss />
+              </div>
+            </div>
+            <p className='text-center text-xl mt-3 text-indigo-900'>Tailwind</p>
+          </div>
+
+          <div className='border-2 group shadow-md shadow-[#4d6078] hover:shadow-xl duration-500 relative min-w-[10rem] max-w-[16rem] bg-indigo-300 p-10 rounded-xl'>
+            <div className='w-32 h-32 flex items-center justify-center rounded-full'>
+              <div className='text-6xl w-28 h-28 bg-gray-900 rounded-full flex items-center justify-center text-white group-hover:text-indigo-300'>
                 <FaReact />
               </div>
             </div>
-            <p className='text-center text-xl mt-3 text-white'>React</p>
+            <p className='text-center text-xl mt-3 text-indigo-900'>React</p>
           </div>
-          <div className='border-2 group border-cyan-600 relative min-w-[10rem] max-w-[16rem] bg-gray-900 p-10 rounded-xl'>
-            <div style={{ background: `conic-gradient(rgb(8, 145, 170) 100%, rgb(221, 221, 221) 100%)` }} className='w-32 h-32 flex items-center justify-center rounded-full'>
-              <div className='text-6xl w-28 h-28 bg-gray-900 rounded-full flex items-center justify-center text-white group-hover:text-cyan-600'>
+
+          <div className='border-2 group shadow-md shadow-[#4d6078] hover:shadow-xl duration-500 relative min-w-[10rem] max-w-[16rem] bg-indigo-300 p-10 rounded-xl'>
+            <div className='w-32 h-32 flex items-center justify-center rounded-full'>
+              <div className='text-6xl w-28 h-28 bg-gray-900 rounded-full flex items-center justify-center text-white group-hover:text-indigo-300'>
                 <FaGithub />
               </div>
             </div>
-            <p className='text-center text-xl mt-3 text-white'>Github</p>
+            <p className='text-center text-xl mt-3 text-indigo-900'>GitHub</p>
           </div>
         </div>
       </div>
-
-
     </div>
+
+
   )
 }
 
