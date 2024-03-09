@@ -104,7 +104,7 @@ const Projects = () => {
 
             <div className='w-full h-[100px] bg-white'>
               <h4 className='text-2xl text-black font-semibold py-2 px-2'>
-                E-Shop
+                Weather Widget
               </h4>
               <p className='text-sm text-indigo-800 px-2 uppercase'>Weather Widget created with React.js, Tailwind.css, Axios.</p>
             </div>
