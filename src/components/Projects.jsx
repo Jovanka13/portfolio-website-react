@@ -94,6 +94,32 @@ const Projects = () => {
               </a>
             </div>
           </div>
+          <div className='w-full md:w-[350px] cursor-pointer shadow-xl hover:scale-110 ease-in-out duration-300 rounded-md'>
+            <img
+              src={project4}
+              alt='E-Shop'
+              className='w-full h-[250px] object-cover rounded-md'
+            />
+
+            <div className='w-full h-[100px] bg-white'>
+              <h4 className='text-2xl text-black font-semibold py-2 px-2'>
+                E-Shop
+              </h4>
+              <p className='text-sm text-indigo-800 px-2 uppercase'>Weather Widget created with React.js, Tailwind.css, Axios.</p>
+            </div>
+            <div className='mt-10 flex gap-10'>
+              <a href='https://reactjs-weather-widget.vercel.app/' target="_blank" rel="noopener noreferrer">
+                <button className='bg-indigo-800 hover:bg-indigo-600 text-lg text-white font-semibold rounded-md py-3 px-5'>
+                  Demo
+                </button>
+              </a>
+              <a href='https://github.com/Jovanka13/react-weather-widget' target="_blank" rel="noopener noreferrer">
+                <button className='text-lg text-white font-semibold rounded-md py-3 px-5 bg-gray-800 hover:bg-gray-600'>
+                  Code
+                </button>
+              </a>
+            </div>
+          </div>
 
         </div>
       </div>
