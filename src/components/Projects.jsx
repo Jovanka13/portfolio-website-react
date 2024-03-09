@@ -2,6 +2,7 @@ import React from 'react'
 import project1 from '../assets/work/screenshot1.png'
 import project2 from '../assets/work/screenshot2.png'
 import project3 from '../assets/work/screenshot3.png'
+import project4 from '../assets/work/screenshot4.png'
 
 const Projects = () => {
   return (
